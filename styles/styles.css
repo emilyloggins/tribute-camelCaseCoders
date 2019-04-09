@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #EDF5E1;
+}
+.main-heading {
+    display: flex;
+    justify-content: center;
+    background-color: #5CDB95;
+    padding: 1em;
+    font-size: 2.8em;
+    letter-spacing: .4em;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #05386B;
+    text-shadow: 3px 1.5px #EDF5E1; 
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #05386B;
+    border-top: #EDF5E1 dotted .1em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-link {
+    display: block;
+    font-size: .8em;
+    list-style-type: none;
+    color: #EDF5E1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: .8em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #5CDB95;
+}
+
+.nav-link > a:visited {
+    color: #EDF5E1;
+}
+
+.nav-link:hover a {
+    color: #5CDB95;
+}
+footer {
+    background-color: #05386B;
+    display: block;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-top: #EDF5E1 dotted .1em;
+}
+
+/* News Feed CSS */
+
+.newsFeed {
+    display: flex;
+    align-items: left;
+    margin: 45px;
+    padding: 5px;
+}
+
+.calendar {
+
+    font-family: verdana,arial,sans-serif;
+    font-size:14px;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calendar  tr {
+    background:#b5cfd2 url('cell-blue.jpg');
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid 4px;
+    border-color: #6bca80;
+    
+}
+
+.calendar td {
+    background-image:url(/img/WW3.jpg) 50px;
+    border-width: 2.1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #05386B;
+    margin: 100px;
+
+}
+
+h2 {
+    text-align: center;
+    text-shadow: .5px .5px 3px #5CDB95;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+} /* */
+
+.gallery {
+    text-align: center;
+}
+
+table {
+    margin: 45px;
+    box-shadow: 1px 1px 3px #05386B;
+    
+}
+a:visited {
+    color: #05386B;
+    /* */
+}
+a:hover {
+    color: #5CDB95;
+    /* */
+}
+
+.bigImg {
+    margin: 185px;
+    box-shadow: 1px 1px 3px #05386B;
+}
