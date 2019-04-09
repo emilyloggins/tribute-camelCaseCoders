@@ -70,7 +70,7 @@ footer {
 /* home + vid */
 .index-flex-container {
     display: flex;
-    padding-bottom: 15%;
+    padding: 3% 0;
 }
 
 #slide-show {
@@ -193,7 +193,7 @@ a:hover {
 .main-img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding-top: 1.7em;
     border-radius: 10em;
 }
@@ -219,18 +219,12 @@ a:hover {
     list-style-type: none;
     justify-content: space-around;
     width: 100%;
-    padding: 5em 0;
+    padding: 7em 0;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 1.5em;
     color: #05386B;
     text-shadow: #5CDB95 5px 5px;
-}
-
-.collab-list {
-    border: dotted #05386B 8px;
-    padding: 6em;
-    margin: 6em;
 }
 
 .collabs {
@@ -244,7 +238,6 @@ a:hover {
     width:12.3em;
     height:auto;
     display:block;
-    position: relative;
 }
 
 .collab-list > ul {
@@ -256,11 +249,15 @@ a:hover {
     color: #05386B;
     font-family: Arial, Helvetica, sans-serif;
     padding: 3em;
+    border: dotted #05386B 8px;
+    padding: 6em;
+    margin: 6em;
 }
 
 .dale-bubble {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 7%;
+    padding-top: 5%;
 }
+
