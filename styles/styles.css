@@ -134,11 +134,12 @@ footer {
     border-radius: 15%;
 }
 
-.pic1 {
+
+.worldEvents img {
     transition: transform .8s; /* Animation */
 }
 
-.pic1:hover {
+.worldEvents img:hover {
     transform: scale(1.1);
     border-radius: 15%;
     box-shadow: 1px 1px 1px 1px #5CDB95;
