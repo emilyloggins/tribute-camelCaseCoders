@@ -1,3 +1,5 @@
+/* entire page */
+
 * {
     margin: 0;
 }
@@ -87,4 +89,66 @@ footer {
 .videos {
     margin: 50px 0px 100px 0px;
 
+}
+/* summary.html */
+
+
+.main-img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-top: 1.7em;
+    border-radius: 10em;
+}
+
+.header-medium {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #05386B;
+    font-size: 2em;
+    padding-top: 1em;
+}
+
+.header-caption {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #05386B;
+    font-style: italic;
+}
+
+.aliases {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    padding: 8em 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: #05386B;
+    text-shadow: #5CDB95 5px 5px;
+}
+
+.collab-list {
+    border: dotted #05386B 8px;
+    padding: 8em;
+    margin: 6em;
+}
+
+.collabs {
+    width: 12em;
+    border-radius: 10em;
+    border: solid #5CDB95 5px;
+}
+
+.collab-list > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    list-style-type: none;
+    color: #05386B;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3em;
 }
