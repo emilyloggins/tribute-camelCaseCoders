@@ -6,6 +6,7 @@
 
 body {
     background-color: #EDF5E1;
+    color: #05386B;
 }
 .main-heading {
     display: flex;
@@ -79,6 +80,7 @@ footer {
     justify-content: flex-end;
     margin: 10% 10%;
     border: solid #5CDB95 5px;
+    border-radius: 10em;
 }
 
 .bubbles {
