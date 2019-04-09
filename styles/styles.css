@@ -223,3 +223,20 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     padding: 3em;
 }
+
+/*Careers styles*/
+
+.firstPic {
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 30%;
+    padding-top: 1.7em;
+    border-radius: 10em;
+}
+
+.imgContainer {
+ display: flex; 
+ flex-direction: row;
+ justify-content: space-around;
+}
