@@ -6,6 +6,7 @@
 
 body {
     background-color: #EDF5E1;
+    color: #05386B;
 }
 .main-heading {
     display: flex;
@@ -66,13 +67,40 @@ footer {
     border-top: #EDF5E1 dotted .1em;
 }
 
-/*Begin Ken's CSS*/
+
+/* home + vid */
+.index-flex-container {
+    display: flex;
+    padding: 3% 0;
+}
 
 #slide-show {
     display: flex;
-    justify-content: center;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin: 10% 10%;
+    border: solid #5CDB95 5px;
+    border-radius: 10em;
 }
 
+.bubbles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 40%;
+    height: auto;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.right-bubble {
+    padding-right: 20%;
+}
+.left-bubble {
+    padding-left: 20%;
+}
+/* Kens CSS */
 .fling-minislide {width:500px; height:500px; overflow:hidden; position: relative; border-radius: 10em;}
 .fling-minislide img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
@@ -88,8 +116,9 @@ footer {
 
 .videos {
     margin: 50px 0px 100px 0px;
-
 }
+
+
 
 /* News Feed */
 
@@ -194,7 +223,7 @@ a:hover {
 .main-img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding-top: 1.7em;
     border-radius: 10em;
 }
@@ -220,7 +249,7 @@ a:hover {
     list-style-type: none;
     justify-content: space-around;
     width: 100%;
-    padding: 8em 0;
+    padding: 7em 0;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 1.5em;
@@ -228,16 +257,17 @@ a:hover {
     text-shadow: #5CDB95 5px 5px;
 }
 
-.collab-list {
-    border: dotted #05386B 8px;
-    padding: 8em;
-    margin: 6em;
-}
-
 .collabs {
     width: 12em;
     border-radius: 10em;
     border: solid #5CDB95 5px;
+}
+
+.collabs:hover {
+    position:relative;
+    width:12.3em;
+    height:auto;
+    display:block;
 }
 
 .collab-list > ul {
@@ -249,6 +279,16 @@ a:hover {
     color: #05386B;
     font-family: Arial, Helvetica, sans-serif;
     padding: 3em;
+    border: dotted #05386B 8px;
+    padding: 6em;
+    margin: 6em;
+}
+
+.dale-bubble {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 5%;
 }
 
 /*Careers styles*/
