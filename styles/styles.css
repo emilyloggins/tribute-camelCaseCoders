@@ -99,7 +99,7 @@ footer {
     padding-left: 20%;
 }
 
-.fling-minislide {width:500px; height:500px; overflow:hidden; position: relative;}
+.fling-minislide {width:500px; height:500px; overflow:hidden; position: relative; border-radius: 10em;}
 .fling-minislide img{position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
 
 @keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}} 
