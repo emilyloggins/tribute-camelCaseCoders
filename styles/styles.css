@@ -67,11 +67,36 @@ footer {
 }
 
 
-/*Begin Ken's CSS*/
+/* home + vid */
+.index-flex-container {
+    display: flex;
+    padding-bottom: 15%;
+}
 
 #slide-show {
     display: flex;
-    justify-content: center;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin: 10% 10%;
+    border: solid #5CDB95 5px;
+}
+
+.bubbles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 40%;
+    height: auto;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+.right-bubble {
+    padding-right: 20%;
+}
+.left-bubble {
+    padding-left: 20%;
 }
 
 .fling-minislide {width:500px; height:500px; overflow:hidden; position: relative;}
@@ -89,8 +114,9 @@ footer {
 
 .videos {
     margin: 50px 0px 100px 0px;
-
 }
+
+
 
 /* News Feed */
 
@@ -193,7 +219,7 @@ a:hover {
     list-style-type: none;
     justify-content: space-around;
     width: 100%;
-    padding: 8em 0;
+    padding: 5em 0;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 1.5em;
@@ -203,7 +229,7 @@ a:hover {
 
 .collab-list {
     border: dotted #05386B 8px;
-    padding: 8em;
+    padding: 6em;
     margin: 6em;
 }
 
@@ -211,6 +237,14 @@ a:hover {
     width: 12em;
     border-radius: 10em;
     border: solid #5CDB95 5px;
+}
+
+.collabs:hover {
+    position:relative;
+    width:12.3em;
+    height:auto;
+    display:block;
+    position: relative;
 }
 
 .collab-list > ul {
@@ -222,4 +256,11 @@ a:hover {
     color: #05386B;
     font-family: Arial, Helvetica, sans-serif;
     padding: 3em;
+}
+
+.dale-bubble {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 7%;
 }
