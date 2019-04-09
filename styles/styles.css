@@ -64,7 +64,7 @@ footer {
     border-top: #EDF5E1 dotted .1em;
 }
 
-/* News Feed CSS */
+/* News Feed */
 
 .newsFeed {
     display: flex;
@@ -108,7 +108,7 @@ h2 {
     text-shadow: .5px .5px 3px #5CDB95;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 35px;
-} /* */
+} 
 
 .gallery {
     text-align: center;
@@ -121,11 +121,11 @@ table {
 }
 a:visited {
     color: #05386B;
-    /* */
+    
 }
 a:hover {
     color: #5CDB95;
-    /* */
+    
 }
 
 .bigImg {
