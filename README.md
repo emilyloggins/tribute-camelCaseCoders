@@ -6,7 +6,7 @@ Requirements:
 Navigation links to the other pages of the report.
 Social Media links in the footer.
 
-Executive Summary - Emily
-Career - Matthew
-Personal - Ken
+Executive Summary - Emily, 
+Career - Matthew, 
+Personal - Ken, 
 News Feed - Joey
